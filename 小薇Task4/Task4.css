@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+#square{
+    width:400px;
+    height:200px;
+    background: #ccc;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-100px 0 0 -200px;
+    overflow: hidden;
+}
+.left-top{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:-50px;
+    left:-50px;
+    border-radius: 50px;
+    background: #ffcc00;
+}
+.right-bottom{
+    width:100px;
+    height:100px;
+    position: absolute;
+    bottom:-50px;
+    right:-50px;
+    border-radius: 50px;
+    background: #ffcc00;
+}

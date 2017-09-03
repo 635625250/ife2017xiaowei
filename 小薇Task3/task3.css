@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+}
+.left{
+    width:200px;
+    padding:20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    position:absolute;
+    top:10px;
+    left:10px;
+
+}
+.center{
+    padding:20px;
+    margin:-10px 200px 0 240px;
+    background-color: #eee;
+    border: 1px solid #999;
+}
+.right{
+    width:120px;
+    padding:20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+.right img{
+    margin:5px 5px 5px 15px;
+
+}
+
